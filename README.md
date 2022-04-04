@@ -1,2 +1,2 @@
-# resume
+# Resume
 Contains my resume.
