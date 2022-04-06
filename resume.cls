@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[hmargin=1.5cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
 
 %----------------------------------------------------------------------------------------
 %	GLOBAL SETTINGS
@@ -16,7 +16,7 @@
 
 \usepackage{enumitem} % Required to set global itemize settings
 
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setitemize{noitemsep,topsep=2pt,parsep=0pt,partopsep=0pt,leftmargin=18pt}
 
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
@@ -59,7 +59,7 @@
 \color{headings} % Use the headings color
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
-\vspace{-10pt} % Reduce whitespace after the rule slightly
+\vspace{-8pt} % Reduce whitespace after the rule slightly
 }
 
 %----------------------------------------------------------------------------------------
