@@ -10,5 +10,5 @@ Contains my resume.
 - LaTeX templates: http://www.latextemplates.com/
 
 ## TODO
-1. Why does is the spacing above the first set of bullets less than the spacing above lower sets of bullets?
+1. Why is the spacing above the first set of bullets less than the spacing above lower sets of bullets?
 1. Why is the font size larger in the Skills section?
