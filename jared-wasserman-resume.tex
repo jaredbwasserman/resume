@@ -2,108 +2,25 @@
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+% Title
+%------------------------------------------------------------------------------
 
 \namesection{Jared}{Wasserman}{
-\begin{minipage}{0.48\textwidth}
-\begin{flushright}
-linkedin.com/in/jaredbwasserman \\
-github.com/jaredbwasserman
-\end{flushright}
-\vspace{0pt}
-\end{minipage}
-\hfill
-\begin{minipage}{0.48\textwidth}
-\begin{flushleft}
-jaredbwasserman@gmail.com \\
-(727) 743-7650
-\end{flushleft}
-\vspace{0pt}
-\end{minipage}
+(727) 743-7650{\barspace}jaredbwasserman@gmail.com{\barspace}linkedin.com/in/jaredbwasserman
 }
 
-%----------------------------------------------------------------------------------------
-%	LEFT COLUMN
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+% Left Column
+%------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.27\textwidth} % The left column takes up 27% of the text width of the page
+\begin{minipage}[t]{0.27\columnwidth}
 
-%------------------------------------------------
+%--------------------------------------
 % Skills
-%------------------------------------------------
+%--------------------------------------
 
 \section{Skills}
-
-\subsection{Data Streaming}
-\descript{Processing}
-\begin{itemize}
-\item Apache Beam
-\item Apache Flink
-\item Apache Spark
-\end{itemize}
-
-\descript{Queueing}
-\begin{itemize}
-\item Apache Kafka
-\item AWS SQS
-\item GCP Pub/Sub
-\end{itemize}
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-
-\subsection{Databases}
-\descript{Relational}
-\begin{itemize}
-\item Amazon Redshift
-\item MySQL
-\end{itemize}
-
-\descript{Non-Relational}
-\begin{itemize}
-\item Elasticsearch
-\end{itemize}
-
-\descript{Data Catalog}
-\begin{itemize}
-\item Amundsen
-\end{itemize}
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-
-\subsection{Deployments}
-\descript{Containers}
-\begin{itemize}
-\item Argo CD
-\item Docker
-\item Kubernetes
-\end{itemize}
-
-\descript{Automation}
-\begin{itemize}
-\item Ansible
-\item Jenkins
-\end{itemize}
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-
-\subsection{Clouds}
-\begin{itemize}
-\item AWS
-\item Azure
-\item GCP
-\end{itemize}
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
 
 \subsection{Languages}
 \begin{itemize}
@@ -114,41 +31,66 @@ jaredbwasserman@gmail.com \\
 \item \LaTeX
 \item Lua
 \item MATLAB
+\item Node.js
 \item Python
 \item Scala
+\item SQL
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
+\sectionspace
 
-%------------------------------------------------
-
-\subsection{Game Engines}
+\subsection{Data Streaming}
 \begin{itemize}
-\item Godot
-\item Phaser
-\item Unity
+\item Amazon SQS and SNS
+\item Apache Beam
+\item Apache Flink
+\item Apache Kafka
+\item Apache Pulsar
+\item Apache Spark
+\item Azure Data Factory
+\item Google Pub/Sub
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
+\sectionspace
 
-%----------------------------------------------------------------------------------------
+\subsection{Databases}
+\begin{itemize}
+\item Amazon Redshift
+\item Elasticsearch
+\item Google BigQuery
+\item MySQL
+\item Oracle Database
+\end{itemize}
 
-\end{minipage} % The end of the left column
+\sectionspace
+
+\subsection{DevOps}
+\begin{itemize}
+\item Ansible
+\item Argo CD
+\item Docker
+\item Helm
+\item Jenkins
+\item Kubernetes
+\item Terraform
+\end{itemize}
+
+\sectionspace
+
+\end{minipage}
 \hfill
-%
-%----------------------------------------------------------------------------------------
-%	RIGHT COLUMN
-%----------------------------------------------------------------------------------------
-%
-\begin{minipage}[t]{0.72\textwidth} % The right column takes up 72% of the text width of the page
+%------------------------------------------------------------------------------
+% Right Column
+%------------------------------------------------------------------------------
+\begin{minipage}[t]{0.72\columnwidth}
 
-%------------------------------------------------
+%--------------------------------------
 % Experience
-%------------------------------------------------
+%--------------------------------------
 
 \section{Experience}
 
-\runsubsection{Blizzard Entertainment}{Battle.net Data Platform}
+\runsubsection{Blizzard Entertainment}{Blizzard Data Platform}
 \location{Senior Software Engineer I{\hfill}Feb 2022{\dash}Present{\barspace}Irvine, CA}
 \location{Software Engineer{\hfill}Feb 2020{\dash}Feb 2022{\barspace}Irvine, CA}
 \begin{itemize}
@@ -159,9 +101,7 @@ jaredbwasserman@gmail.com \\
 \item Utilized Kubernetes and Helm to manage application deployments.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
+\sectionspace
 
 \runsubsection{Microsoft}{Teams Telemetry}
 \location{Software Engineer II{\hfill}Jan 2019{\dash}Jan 2020{\barspace}Bellevue, WA}
@@ -172,9 +112,7 @@ jaredbwasserman@gmail.com \\
 \item Worked on a data processing system written using Apache Hadoop and Apache Oozie. 
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
+\sectionspace
 
 \runsubsection{Amazon}{Advertising Analytics}
 \location{Software Development Engineer I{\hfill}Nov 2016{\dash}Dec 2018{\barspace}Seattle, WA}
@@ -185,9 +123,7 @@ jaredbwasserman@gmail.com \\
 \item Designed a data quality system to analyze Excel reports for defects.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
+\sectionspace
 
 \runsubsection{MathWorks}{Computer Science Development Group}
 \location{Associate Software Engineer{\hfill}Sep 2015{\dash}Oct 2016{\barspace}Natick, MA}
@@ -197,9 +133,7 @@ jaredbwasserman@gmail.com \\
 \item Investigated and resolved technical support questions and issues.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
+\sectionspace
 
 \runsubsection{DiSTI Corporation}{Virtual Training}
 \location{Software Engineer I{\hfill}Jun 2015{\dash}Sep 2015{\barspace}Orlando, FL}
@@ -208,26 +142,26 @@ jaredbwasserman@gmail.com \\
 \item Analyzed and implemented customer requirements for a custom simulator.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
+\sectionspace
 
-%------------------------------------------------
+%--------------------------------------
 % Education
-%------------------------------------------------
+%--------------------------------------
 
 \section{Education}
 
 \runsubsection{UCF}{College of Engineering and Computer Science}
-\location{BS, Computer Science{\hfill}Aug 2011{\dash}May 2015{\barspace}Orlando, FL}
-\location{Minor, Mathematics{\hfill}Aug 2011{\dash}May 2015{\barspace}Orlando, FL}
+\location{BS in Computer Science and Minor in Math{\hfill}Aug 2011{\dash}May 2015{\barspace}Orlando, FL}
 \begin{itemize}
-\item Earned a 4.0/4.0 GPA.
+\item Earned a 4.0/4.0 GPA and graduated summa cum laude.
+\item Member of the Burnett Honors College.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
+\sectionspace
 
-%------------------------------------------------
+%--------------------------------------
 % Personal Projects
-%------------------------------------------------
+%--------------------------------------
 
 \section{Personal Projects}
 
@@ -238,9 +172,7 @@ jaredbwasserman@gmail.com \\
 \item Has a lobby system and two multiplayer games written using Phaser and Socket.IO.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
+\sectionspace
 
 \runsubsection{Drift}{World of Warcraft Addon}
 \location{Author{\hfill}Dec 2019{\dash}Present}
@@ -248,10 +180,8 @@ jaredbwasserman@gmail.com \\
 \item Addon written in Lua that enables moving in-game UI frames via clicking and dragging.
 \end{itemize}
 
-\sectionspace % Some whitespace after the section
+\sectionspace
 
-%----------------------------------------------------------------------------------------
-
-\end{minipage} % The end of the right column
+\end{minipage}
 
 \end{document}

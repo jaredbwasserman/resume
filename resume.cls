@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[hmargin=1.5cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[hmargin = 1.5cm, vmargin = 0.75cm]{geometry} % Specifies horizontal and vertical page margins
 
 %----------------------------------------------------------------------------------------
 %	GLOBAL SETTINGS
@@ -16,7 +16,7 @@
 
 \usepackage{enumitem} % Required to set global itemize settings
 
-\setitemize{noitemsep,topsep=2pt,parsep=0pt,partopsep=0pt,leftmargin=18pt}
+\setitemize{noitemsep, topsep = 2pt, parsep = 0pt, partopsep = 0pt, leftmargin = 18pt}
 
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
@@ -44,9 +44,9 @@
 
 \usepackage{fontspec} % Required for specifying custom fonts in XeLaTeX
 
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig} % The primary font for content text; defines bold, italic and bold-italic as well
+\setmainfont[Color = primary, Path = fonts/lato/, BoldItalicFont = Lato-RegIta, BoldFont = Lato-Reg, ItalicFont = Lato-LigIta]{Lato-Lig} % The primary font for content text; defines bold, italic and bold-italic as well
 
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
+\setsansfont[Scale = MatchLowercase, Mapping = tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
 %	MAIN HEADING COMMAND
@@ -55,7 +55,7 @@
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
 \centering{ % Center the name
 \fontsize{40pt}{60pt} % Font size
-\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 % First name font
+\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 % First name font
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2 % Last name font
 } \\[10pt] % Whitespace between the name and contact information
 \centering{ % Center the contact information
@@ -76,7 +76,7 @@
 \newcommand{\sectionspace}{\vspace{8pt}} % Defines a command to add a set amount of space after sections and subsections
 
 \titleformat{\section}{ % Customize the large section titles
-\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont\raggedright\uppercase}{}{0em}{}
 
 \titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
