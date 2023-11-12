@@ -16,7 +16,7 @@
 
 \usepackage{enumitem} % Required to set global itemize settings
 
-\setitemize{noitemsep, topsep = 2pt, parsep = 0pt, partopsep = 0pt, leftmargin = 18pt}
+\setitemize{topsep = 0pt, partopsep = 0pt, itemsep = 0pt, parsep = 0pt, leftmargin = 18pt}
 
 %----------------------------------------------------------------------------------------
 % Useful commands
@@ -62,7 +62,7 @@
 \color{headings} % Use the headings color
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
-\vspace{-8pt} % Reduce whitespace after the rule slightly
+\vspace{-10pt} % Reduce whitespace after the rule slightly
 }
 
 %----------------------------------------------------------------------------------------
