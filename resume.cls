@@ -1,5 +1,5 @@
 %----------------------------------------------------------------------------------------
-%	CLASS OPTIONS AND REQUIRED PACKAGES
+% Class options and required packages
 %----------------------------------------------------------------------------------------
 
 \ProvidesClass{resume}
@@ -11,7 +11,7 @@
 \usepackage[hmargin = 1.5cm, vmargin = 0.75cm]{geometry} % Specifies horizontal and vertical page margins
 
 %----------------------------------------------------------------------------------------
-%	GLOBAL SETTINGS
+% Global settings
 %----------------------------------------------------------------------------------------
 
 \usepackage{enumitem} % Required to set global itemize settings
@@ -19,7 +19,7 @@
 \setitemize{noitemsep, topsep = 2pt, parsep = 0pt, partopsep = 0pt, leftmargin = 18pt}
 
 %----------------------------------------------------------------------------------------
-%	USEFUL COMMANDS
+% Useful commands
 %----------------------------------------------------------------------------------------
 
 \newcommand{\barspace}{\space\space|\space\space}
@@ -29,7 +29,7 @@
 \newcommand{\code}[1]{\texttt{#1}}
 
 %----------------------------------------------------------------------------------------
-%	COLORS
+% Colors
 %----------------------------------------------------------------------------------------
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
@@ -39,7 +39,7 @@
 \definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
 
 %----------------------------------------------------------------------------------------
-%	FONTS
+% Fonts
 %----------------------------------------------------------------------------------------
 
 \usepackage{fontspec} % Required for specifying custom fonts in XeLaTeX
@@ -49,7 +49,7 @@
 \setsansfont[Scale = MatchLowercase, Mapping = tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
-%	MAIN HEADING COMMAND
+% Main heading command
 %----------------------------------------------------------------------------------------
 
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
@@ -66,7 +66,7 @@
 }
 
 %----------------------------------------------------------------------------------------
-%	SECTION TITLE STYLING AND SPACING
+% Section title style and spacing
 %----------------------------------------------------------------------------------------
 
 \usepackage{titlesec} % Required for customizing section/subsection/etc titles
