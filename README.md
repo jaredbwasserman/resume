@@ -8,7 +8,3 @@ My resume written in LaTeX.
 
 ## References
 - [Deedy-Resume](https://github.com/deedy/Deedy-Resume)
-
-## TODO
-1. Why is the spacing above the first set of bullets less than the spacing above lower sets of bullets?
-1. Fix font warnings `Font shape 'TU/Lato-Lig(0)/m/sc' undefined(Font) using 'TU/Lato-Lig(0)/m/n' instead`.
