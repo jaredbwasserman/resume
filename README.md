@@ -7,8 +7,7 @@ My resume written in LaTeX.
 1. Configure Texmaker to use `XeLaTeX`.
 
 ## References
-- [Deedy resume template](http://www.latextemplates.com/template/deedy-resume-cv)
-- [LaTeX templates](http://www.latextemplates.com/)
+- [Deedy-Resume](https://github.com/deedy/Deedy-Resume)
 
 ## TODO
 1. Why is the spacing above the first set of bullets less than the spacing above lower sets of bullets?
