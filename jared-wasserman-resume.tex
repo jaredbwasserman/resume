@@ -14,7 +14,7 @@
 % Left Column
 %------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.27\columnwidth}
+\begin{minipage}[t]{0.25\columnwidth}
 
 %--------------------------------------
 % Skills
@@ -35,6 +35,7 @@
 \item Node.js
 \item Python
 \item Scala
+\item Spring Boot
 \item SQL
 \end{itemize}
 
@@ -59,6 +60,7 @@
 \vspace{2pt}
 \begin{itemize}
 \item Amazon Redshift
+\item Cassandra
 \item Elasticsearch
 \item Google BigQuery
 \item MySQL
@@ -86,7 +88,7 @@
 %------------------------------------------------------------------------------
 % Right Column
 %------------------------------------------------------------------------------
-\begin{minipage}[t]{0.72\columnwidth}
+\begin{minipage}[t]{0.74\columnwidth}
 
 %--------------------------------------
 % Experience
@@ -99,11 +101,12 @@
 \location{Software Engineer{\hfill}Feb 2020{\dash}Feb 2022{\barspace}Irvine, CA}
 \vspace{2pt}
 \begin{itemize}
-\item Created a data catalog prototype for Elasticsearch data using Amundsen.
-\item Implemented a GeoIP data enrichment job using Apache Beam on GCP Dataflow.
-\item Designed and coded a Node.js and MySQL application for configuration management.
-\item Wrote Scala code for an Apache Flink application to improve processing and config.
-\item Utilized Kubernetes and Helm to manage application deployments.
+\item Programmed big data pipeline components using Apache Flink and Apache Beam.
+\item Fixed bugs and wrote features in C++ for a World of Warcraft party matchmaking system.
+\item Relational and non-relational data modeling, including MySQL and Elasticsearch.
+\item Led a presentation to over 100 engineers on telemetry and big data pipeline architecture.
+\item Helped design and implement a self-service access management tool using Spring Boot.
+\item Utilized Docker, Kubernetes, and Helm for containerized application deployments.
 \end{itemize}
 
 \sectionspace
@@ -112,10 +115,9 @@
 \location{Software Engineer II{\hfill}Jan 2019{\dash}Jan 2020{\barspace}Bellevue, WA}
 \vspace{2pt}
 \begin{itemize}
-\item Wrote Apache Spark Scala code for metrics processing on Azure Databricks.
-\item Created a data pipeline to coordinate Spark jobs using Azure Data Factory.
-\item Ported Teams performance metrics from a legacy solution to an Apache Spark solution.
-\item Worked on a data processing system written using Apache Hadoop and Apache Oozie. 
+\item Coded logic for metrics processing jobs using Apache Spark on Azure Databricks.
+\item Worked on batch processing systems written with Apache Hadoop and Apache Oozie.
+\item Ported Teams performance calculations from a JavaScript solution to Apache Spark.
 \end{itemize}
 
 \sectionspace
@@ -124,10 +126,9 @@
 \location{Software Development Engineer I{\hfill}Nov 2016{\dash}Dec 2018{\barspace}Seattle, WA}
 \vspace{2pt}
 \begin{itemize}
-\item Improved Java application code for ingesting data into Elasticsearch.
-\item Wrote Redshift SQL queries for automated ETL as well as ad-hoc data investigation.
-\item Utilized AWS Lambda along with AWS SQS for building data pipelines.
-\item Designed a data quality system to analyze Excel reports for defects.
+\item Contributed Java code to a system for Elasticsearch data ingestion and extraction.
+\item Crafted Redshift queries for automated ETL operations and ad-hoc data investigations.
+\item Designed a system to automatically analyze generated Excel reports for data defects.
 \end{itemize}
 
 \sectionspace
@@ -137,18 +138,8 @@
 \vspace{2pt}
 \begin{itemize}
 \item Designed and implemented the 3D image resize MATLAB function \code{imresize3}.
-\item Wrote covariance functions for Gaussian Process Regression in MATLAB.
-\item Investigated and resolved technical support questions and issues.
-\end{itemize}
-
-\sectionspace
-
-\runsubsection{DiSTI Corporation}{Virtual Training}
-\location{Software Engineer I{\hfill}Jun 2015{\dash}Sep 2015{\barspace}Orlando, FL}
-\vspace{2pt}
-\begin{itemize}
-\item Learned basic C++ to understand proprietary simulation tools.
-\item Analyzed and implemented customer requirements for a custom simulator.
+\item Added MATLAB code to Gaussian process regression functions in the Statistics Toolbox.
+\item Worked with customers and engineers to investigate and resolve technical questions.
 \end{itemize}
 
 \sectionspace
@@ -170,26 +161,39 @@
 \sectionspace
 
 %--------------------------------------
-% Personal Projects
+% Open Source
 %--------------------------------------
 
-\section{Personal Projects}
+\section{Open Source}
 
-\runsubsection{Web Games}{Multiplayer JavaScript Games}
-\location{Author{\hfill}Oct 2021{\dash}Present}
+\subsection{Contributions to Projects}
+\location{Java gRPC Implementation{\hfill}github.com/grpc/grpc-java}
 \vspace{2pt}
 \begin{itemize}
-\item Web server with a Node.js backend and a vanilla JavaScript frontend.
-\item Has a lobby system and two multiplayer games written using Phaser and Socket.IO.
+\item Created an issue to observe the provided Netty allocator type by default (issue 10292).
+\end{itemize}
+\vspace{3pt}
+\location{Amundsen{\hfill}github.com/amundsen-io/amundsen}
+\vspace{2pt}
+\begin{itemize}
+\item Added support for Elasticsearch 7 and enhanced Elasticsearch field support (PR 1648).
 \end{itemize}
 
 \sectionspace
 
-\runsubsection{Drift}{World of Warcraft Addon}
-\location{Author{\hfill}Dec 2019{\dash}Present}
+\subsection{Personal Projects}
+\location{Web Games{\hfill}github.com/jaredbwasserman/web-games}
 \vspace{2pt}
 \begin{itemize}
-\item Addon written in Lua that enables moving in-game UI frames via clicking and dragging.
+\item Contains a lobby system and multiplayer games written using Phaser and Socket.IO.
+\item The web server is implemented with a Node.js backend and a JavaScript frontend.
+\end{itemize}
+\vspace{3pt}
+\location{Drift{\hfill}github.com/jaredbwasserman/drift}
+\vspace{2pt}
+\begin{itemize}
+\item World of Warcraft Lua addon with over 50,000 downloads to enable moving UI frames.
+\item Fixed numerous user reported bugs and added numerous user requested features.
 \end{itemize}
 
 \sectionspace
