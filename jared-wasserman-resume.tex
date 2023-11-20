@@ -14,7 +14,7 @@
 % Left Column
 %------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.25\columnwidth}
+\begin{minipage}[t]{0.22\columnwidth}
 
 %--------------------------------------
 % Skills
@@ -25,18 +25,32 @@
 \subsection{Languages}
 \vspace{2pt}
 \begin{itemize}
+\item Java
+\item Spring Boot
+\item Scala
 \item C\#
 \item C++
-\item Java
-\item JavaScript
-\item \LaTeX
 \item Lua
-\item MATLAB
 \item Node.js
+\item JavaScript
 \item Python
-\item Scala
-\item Spring Boot
+\item MATLAB
 \item SQL
+\item \LaTeX
+\end{itemize}
+
+\sectionspace
+
+\subsection{Data Stores}
+\vspace{2pt}
+\begin{itemize}
+\item Elasticsearch
+\item Cassandra
+\item MySQL
+\item Oracle Database
+\item Google BigQuery
+\item Amazon Redshift
+\item Apache Hadoop
 \end{itemize}
 
 \sectionspace
@@ -44,41 +58,37 @@
 \subsection{Data Streaming}
 \vspace{2pt}
 \begin{itemize}
-\item Amazon SQS and SNS
+\item Avro
+\item Protobuf
 \item Apache Beam
 \item Apache Flink
-\item Apache Kafka
-\item Apache Pulsar
 \item Apache Spark
+\item Azure Databricks
 \item Azure Data Factory
 \item Google Pub/Sub
+\item Apache Kafka
+\item Apache Pulsar
+\item Amazon SQS/SNS
 \end{itemize}
 
 \sectionspace
 
-\subsection{Databases}
+\subsection{Development}
 \vspace{2pt}
 \begin{itemize}
-\item Amazon Redshift
-\item Cassandra
-\item Elasticsearch
-\item Google BigQuery
-\item MySQL
-\item Oracle Database
-\end{itemize}
-
-\sectionspace
-
-\subsection{DevOps}
-\vspace{2pt}
-\begin{itemize}
-\item Ansible
-\item Argo CD
+\item Git
+\item Apache Subversion
 \item Docker
 \item Helm
-\item Jenkins
 \item Kubernetes
+\item Argo CD
+\item Ansible
+\item Jenkins
 \item Terraform
+\item AWS
+\item GCP
+\item Azure
+\item OpenStack
 \end{itemize}
 
 \sectionspace
@@ -88,7 +98,7 @@
 %------------------------------------------------------------------------------
 % Right Column
 %------------------------------------------------------------------------------
-\begin{minipage}[t]{0.74\columnwidth}
+\begin{minipage}[t]{0.77\columnwidth}
 
 %--------------------------------------
 % Experience
@@ -96,17 +106,30 @@
 
 \section{Experience}
 
-\runsubsection{Blizzard Entertainment}{Blizzard Data Platform}
-\location{Senior Software Engineer I{\hfill}Feb 2022{\dash}Present{\barspace}Irvine, CA}
-\location{Software Engineer{\hfill}Feb 2020{\dash}Feb 2022{\barspace}Irvine, CA}
+\runsubsection{Blizzard Entertainment}{Multiple Teams}
+\location{Data Platform: Senior Software Engineer I{\hfill}Dec 2022{\dash}Present{\barspace}Irvine, CA}
 \vspace{2pt}
 \begin{itemize}
-\item Programmed big data pipeline components using Apache Flink and Apache Beam.
-\item Fixed bugs and wrote features in C++ for a World of Warcraft party matchmaking system.
-\item Relational and non-relational data modeling, including MySQL and Elasticsearch.
+\item Designed and implemented an access management tool using Spring Boot and MySQL.
 \item Led a presentation to over 100 engineers on telemetry and big data pipeline architecture.
-\item Helped design and implement a self-service access management tool using Spring Boot.
-\item Utilized Docker, Kubernetes, and Helm for containerized application deployments.
+\item Investigated and solved a Java gRPC memory leak caused by the Netty pooled allocator type.
+\end{itemize}
+\vspace{3pt}
+\location{World of Warcraft: Senior Software Engineer I{\hfill}Jul 2022{\dash}Dec 2022{\barspace}Irvine, CA}
+\vspace{2pt}
+\begin{itemize}
+\item Fixed bugs and wrote features for party matchmaking within a custom game mode using C++.
+\item Constructed database tables and wrote C++ code to load character customization data.
+\item Wrote Lua code to display minimap visualizations for a custom game mode.
+\end{itemize}
+\vspace{3pt}
+\location{Data Platform: Senior Software Engineer I{\hfill}Feb 2022{\dash}Jul 2022{\barspace}Irvine, CA}
+\location{Data Platform: Software Engineer{\hfill}Feb 2020{\dash}Feb 2022{\barspace}Irvine, CA}
+\vspace{2pt}
+\begin{itemize}
+\item Implemented data pipeline components using Apache Beam, Apache Flink, and Elasticsearch.
+\item Modeled relational data for a configuration management system using Lucidchart.
+\item Utilized Docker, Kubernetes, and Helm to deploy containerized applications.
 \end{itemize}
 
 \sectionspace
@@ -115,9 +138,8 @@
 \location{Software Engineer II{\hfill}Jan 2019{\dash}Jan 2020{\barspace}Bellevue, WA}
 \vspace{2pt}
 \begin{itemize}
-\item Coded logic for metrics processing jobs using Apache Spark on Azure Databricks.
+\item Coded logic for metrics processing jobs using Apache Spark running on Azure Databricks.
 \item Worked on batch processing systems written with Apache Hadoop and Apache Oozie.
-\item Ported Teams performance calculations from a JavaScript solution to Apache Spark.
 \end{itemize}
 
 \sectionspace
@@ -139,7 +161,6 @@
 \begin{itemize}
 \item Designed and implemented the 3D image resize MATLAB function \code{imresize3}.
 \item Added MATLAB code to Gaussian process regression functions in the Statistics Toolbox.
-\item Worked with customers and engineers to investigate and resolve technical questions.
 \end{itemize}
 
 \sectionspace
@@ -155,7 +176,7 @@
 \vspace{2pt}
 \begin{itemize}
 \item Earned a 4.0/4.0 GPA and graduated summa cum laude.
-\item Member of the Burnett Honors College.
+\item Took honors classes as a member of the Burnett Honors College.
 \end{itemize}
 
 \sectionspace
@@ -170,8 +191,7 @@
 \location{Java gRPC Implementation{\hfill}github.com/grpc/grpc-java}
 \vspace{2pt}
 \begin{itemize}
-\item Created an issue to observe the provided Netty allocator type by default (issue 10292).
-\item Figured out a workaround for memory leaks is to use the Netty unpooled allocator type.
+\item Created a feature request to observe provided Netty allocator type by default (issue 10292).
 \end{itemize}
 \vspace{3pt}
 \location{Amundsen{\hfill}github.com/amundsen-io/amundsen}
@@ -186,15 +206,15 @@
 \location{Web Games{\hfill}github.com/jaredbwasserman/web-games}
 \vspace{2pt}
 \begin{itemize}
-\item Contains a lobby system and multiplayer games written using Phaser and Socket.IO.
-\item The web server is implemented with a Node.js backend and a JavaScript frontend.
+\item Implemented a web server that allows for playing minigame-style multiplayer games.
+\item Utilized Node.js, Socket.IO, Phaser, and JavaScript to implement lobby and game logic.
 \end{itemize}
 \vspace{3pt}
-\location{Drift{\hfill}github.com/jaredbwasserman/drift}
+\location{Drift (World of Warcraft Addon){\hfill}github.com/jaredbwasserman/drift}
 \vspace{2pt}
 \begin{itemize}
-\item World of Warcraft Lua addon to enable moving UI frames with over 50,000 downloads.
-\item Worked with users to fixed bugs, add features, and understand usage patterns.
+\item Created a WoW addon written in Lua to enable moving UI frames (over 50,000 downloads).
+\item Worked with users to fix bugs, add features, and understand usage patterns.
 \end{itemize}
 
 \sectionspace
