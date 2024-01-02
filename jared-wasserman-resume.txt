@@ -1,0 +1,148 @@
+Name: Jared Wasserman
+Phone Number: (727) 743-7650
+Email: jaredbwasserman@gmail.com
+LinkedIn: linkedin.com/in/jaredbwasserman
+
+
+Experience
+
+Company: Blizzard Entertainment
+Team: Data Platform Team
+Title: Senior Software Engineer I
+Time: Dec 2022 to Present
+Location: Irvine, CA
+* Designed and implemented an access management tool using Spring Boot and MySQL.
+* Led a presentation to over 100 engineers on telemetry and big data pipeline architecture.
+* Investigated and solved a Java gRPC memory leak caused by the Netty pooled allocator type.
+
+Company: Blizzard Entertainment
+Team: World of Warcraft Team
+Title: Senior Software Engineer I
+Time: Jul 2022 to Dec 2022
+Location: Irvine, CA
+* Fixed bugs and wrote features for party matchmaking within a custom game mode using C++.
+* Constructed database tables and wrote C++ code to load character customization data.
+* Wrote Lua code to display minimap visualizations for a custom game mode.
+
+Company: Blizzard Entertainment
+Team: Data Platform Team
+Title: Senior Software Engineer I
+Time: Feb 2022 to Jul 2022
+Location: Irvine, CA
+* Modeled relational data for a configuration management system using Lucidchart.
+
+Company: Blizzard Entertainment
+Team: Data Platform Team
+Title: Software Engineer
+Time: Feb 2020 to Feb 2022
+Location: Irvine, CA
+* Implemented data pipeline components using Apache Beam, Apache Flink, and Elasticsearch.
+* Utilized Docker, Kubernetes, and Helm to deploy containerized applications.
+
+Company: Microsoft
+Team: Teams Telemetry Team
+Title: Software Engineer II
+Time: Jan 2019 to Jan 2020
+Location: Bellevue, WA
+* Coded logic for metrics processing jobs using Apache Spark running on Azure Databricks.
+* Worked on batch processing systems written with Apache Hadoop and Apache Oozie.
+
+Company: Amazon
+Team: Advertising Analytics Team
+Title: Software Development Engineer I
+Time: Nov 2016 to Dec 2018
+Location: Seattle, WA
+* Contributed Java code to a system for Elasticsearch data ingestion and extraction.
+* Crafted Redshift queries for automated ETL operations and ad-hoc data investigations.
+* Designed a system to automatically analyze generated Excel reports for data defects.
+
+Company: MathWorks
+Team: Computer Science Development Group
+Title: Associate Software Engineer
+Time: Sep 2015 to Oct 2016
+Location: Natick, MA
+* Designed and implemented the 3D image resize MATLAB function \code{imresize3}.
+* Added MATLAB code to Gaussian process regression functions in the Statistics Toolbox.
+
+
+Education
+
+University: University of Central Florida
+College: College of Engineering and CS
+Major: BS in Computer Science
+Minor: Minor in Math
+Time: Aug 2011 to May 2015
+Location: Orlando, FL
+* Earned a 4.0/4.0 GPA and graduated summa cum laude.
+* Admitted into the Burnett Honors College.
+
+
+Contributions to Open Source Projects
+
+Project: Java gRPC Implementation
+URL: github.com/grpc/grpc-java
+* Created a feature request to use the provided Netty allocator type by default (issue 10292).
+
+Project: Amundsen
+URL: github.com/amundsen-io/amundsen
+* Added support for Elasticsearch 7 and enhanced Elasticsearch field support (PR 1648).
+
+
+Personal Projects
+
+Project: Web Games
+URL: github.com/jaredbwasserman/web-games
+* Implemented a web server that allows for playing minigame-style multiplayer games.
+* Utilized Node.js, Socket.IO, Phaser, and JavaScript to implement lobby and game logic.
+
+Project: Drift (World of Warcraft Addon)
+URL: github.com/jaredbwasserman/drift
+* Created a WoW addon written in Lua to enable moving UI frames (over 50,000 downloads).
+* Worked with users to fix bugs, add features, and understand usage patterns.
+
+
+Skills
+
+* Amazon Redshift
+* Amazon SQS/SNS
+* Ansible
+* Apache Beam
+* Apache Flink
+* Apache Hadoop
+* Apache Kafka
+* Apache Pulsar
+* Apache Spark
+* Apache Subversion
+* Argo CD
+* Avro
+* AWS
+* Azure
+* Azure Data Factory
+* Azure Databricks
+* C++
+* C\#
+* Cassandra
+* Docker
+* Elasticsearch
+* GCP
+* Git
+* Google BigQuery
+* Google Pub/Sub
+* Helm
+* Java
+* JavaScript
+* Jenkins
+* Kubernetes
+* LaTeX
+* Lua
+* MATLAB
+* MySQL
+* Node.js
+* OpenStack
+* Oracle Database
+* Protobuf
+* Python
+* Scala
+* Spring Boot
+* SQL
+* Terraform
