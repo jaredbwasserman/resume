@@ -120,7 +120,7 @@ Skills
 * Azure Data Factory
 * Azure Databricks
 * C++
-* C\#
+* C#
 * Cassandra
 * Docker
 * Elasticsearch
